@@ -1,0 +1,134 @@
+@media (max-width: 1591px) {
+  .img-panda {
+    width: 600px;
+    height: 400px;
+  }
+}
+@media (max-width: 1230px) {
+  .img-panda {
+    width: 500px;
+    height: 300px;
+  }
+
+  .about-me-text {
+    margin: 10px 10px;
+  }
+  .Abt-me {
+    padding: 4%;
+  }
+}
+
+@media (max-width: 1050px) {
+  .img-panda {
+    width: 500px;
+    height: 300px;
+  }
+
+  .about-me-text {
+    margin: 10px 10px;
+  }
+  .Abt-me {
+    padding: 4%;
+  }
+  .about-me-flex {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 20px;
+  }
+  .img-panda {
+    grid-row: 2 / 3;
+  }
+  .about-me-text {
+    text-align: center;
+    max-width: 600px;
+  }
+  .About-me {
+    padding-top: 0px;
+  }
+  .header-p {
+    margin-left: 5px;
+  }
+  .header {
+    width: 100%;
+  }
+}
+@media (max-width: 811px) {
+  .header-p {
+    display: none;
+  }
+  .header-elements {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .contact-details {
+    width: 500px;
+  }
+  .contact-details img {
+    margin: 10px;
+  }
+}
+
+@media (max-width: 547px) {
+  .contact-details {
+    width: 300px;
+  }
+  .contact-details img {
+    margin: 6px;
+  }
+  .img-panda {
+    width: 380px;
+    height: 300px;
+  }
+  .background-img {
+    height: 180px;
+  }
+  .about-me-text p:nth-child(2) {
+    font-size: 17px;
+    line-height: 1.5;
+  }
+  .portfolio-cards {
+    display: inline-flex;
+    gap: 20px;
+    flex-direction: column;
+  }
+  .first-project {
+    width: 100%;
+  }
+  .card-img-1 {
+    width: 80%;
+  }
+  .portfolio-cards {
+    margin-bottom: 10px;
+  }
+  .footer-a {
+    font-size: 14px;
+  }
+  .header-a {
+    font-size: 18px;
+  }
+}
+@media (max-width: 418px) {
+  .anchors-head {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .header {
+    padding: 50px 0 0 0;
+  }
+  .img-panda {
+    display: none;
+  }
+  .background-img {
+    height: 130px;
+  }
+  .contact-details img {
+    width: 35px;
+    height: 35px;
+  }
+  .contact-me {
+    margin-bottom: 25px;
+  }
+}
